@@ -12,9 +12,9 @@ Prosta aplikacja webowa do zarządzania zadaniami, stworzona w HTML, CSS i JavaS
 - Animacje i interakcje UI (draggable formularz, hover, efekty)
 
 # Użyłem: 
-HTML, CSS, JavaScript
-jQuery + jQuery UI
-DataTables
-Bootstrap 5
+- HTML, CSS, JavaScript
+- jQuery + jQuery UI
+- wtyczki DataTables
+- Bootstrap 5
 
 # Po odświeżeniu strony lista znika
