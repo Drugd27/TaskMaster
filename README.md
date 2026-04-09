@@ -5,6 +5,7 @@ Prosta aplikacja webowa do zarządzania zadaniami, stworzona w HTML, CSS i JavaS
 # Funkcje
 - Dodawanie i usuwanie zadań
 - Oznaczanie jako ukończone / aktywne
+- walidacja formularza
 - Datepicker do wyboru daty
 - Tabela z wyszukiwaniem i sortowaniem (DataTables)
 - Eksport do CSV i PDF
