@@ -1,9 +1,10 @@
 body {
     font-family: 'Comic Sans MS', cursive;
+    background-color: #f0f0f0;
 }
 
 body.dark-mode {
-    background-color: #121212;
+    background-color: #272727;
     color: white;   
 }
 

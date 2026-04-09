@@ -16,6 +16,14 @@ $(document).ready(function () {
     // Tryb ciemny
     $("#darkModeBtn").click(function () {
         $("body").toggleClass("dark-mode");
+
+        if($("body").hasClass("dark-mode")){
+            $(".lbl").css("color", "#ffffff");
+        } else {
+            $(".lbl").css("color", "#000000");
+        }
+        
+        
     });
 
     // DataTables
@@ -84,11 +92,17 @@ $(document).ready(function () {
         row.animate({ opacity: 0.5 }, 200).animate({ opacity: 1 }, 200);
     });
 
-    // Hover efekt
     $("#taskTable tbody").on("mouseenter", "tr", function () {
-        $(this).css("background-color", "#f2f2f2");
+
+        if($("body").hasClass("dark-mode")) {
+            $(this).css("background-color", "#424242");
+        } else {
+            $(this).css("background-color", "#f2f2f2");
+        }
+        
     }).on("mouseleave", "tr", function () {
         $(this).css("background-color", "");
     });
 
+    
 });
