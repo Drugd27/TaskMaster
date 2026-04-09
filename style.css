@@ -1,0 +1,23 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;   
+}
+
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#taskFormContainer {
+    display: none;
+}
+
